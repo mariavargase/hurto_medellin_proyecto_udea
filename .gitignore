@@ -1,0 +1,18 @@
+# Entorno virtual de uv (Para reconstruir: uv sync)
+.venv/
+
+# Caché de Python
+_pycache__
+*.py[cod]
+*$py.class
+
+# Archivos temporales de Jupyter
+.ipynb_checkpoints
+
+# Carpetas de datos pesados (se descargan al correr el notebook)
+datalake
+
+# Archivos de configuración del sistema operativo y VS Code
+.vscode
+.DS_Store
+Thumbs.db
